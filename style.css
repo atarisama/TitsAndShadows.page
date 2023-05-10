@@ -1,0 +1,189 @@
+/*Fuente de texto (no es una fuente por defecto y tiene que subirse al servidor para que la muestre)*/
+@font-face {
+    font-family: 'Rockwell Condensed';
+
+    /*Aquí se cambia la direcion del archivo .ttf*/
+    src: url('D:\Programas\Programación\Proyectos\PaginaOsoTitsAndShadows\Fonts\Rockwell Condensed.ttf') format('truetype');
+}
+body{
+    font-family: 'Rockwell Condensed', sans-serif;
+    /*Imagen de fondo para la pagina (No es necesario)*/
+    background-image: url(https://th.bing.com/th/id/R.58055f6a972541cc151cf1bac6d1a71a?rik=r535rM7FYvViNQ&pid=ImgRaw&r=0);
+    
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    min-width: 10%;
+}
+body, p{
+    margin: 0;
+}
+
+/* Menú de navegación */
+.menu-bar {
+    text-align: right;
+}
+  
+.menu-list {
+    display: inline-block;
+    list-style-type: none;
+}
+  
+.menu-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+  
+.menu-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+/* Titulo*/
+.title {
+    color: #dac341;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin: 100px;
+}
+.title-game{
+    font-style: italic;
+}
+
+/*Botón para jugar*/
+.play-button {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.836);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+/*plataformas de juego*/
+
+.plataform{
+    width: 400px;
+}
+
+/*Informacion del juego / contenido de la pagina*/
+.info{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
+    margin: 100px 10%; /*Esto solo es estetico se quitara*/
+}
+.game-img{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.more-info{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
+    margin: 100px 10%; /*Esto solo es estetico se quitara*/
+}
+.team{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
+    margin: 100px 10% /*Esto solo es estetico se quitara*/
+}
+.social-media{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+.social-media img{
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    padding: 5px;
+}
+footer {
+    background-color: #0000007c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+/*Extras*/
+.temporal-div{
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+
+.imagen-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    scrollbar-width: thin;
+    scrollbar-color: gray darkgray;
+    margin-bottom: 30px;
+}
+.imagen-container img {
+    display: inline-block;
+    width: 700px; /* Ajusta el ancho de las imágenes según tus necesidades */
+    height: auto;
+    padding: 20px;
+}
+.imagen-container::-webkit-scrollbar {
+    width: 6px;
+}
+  
+.imagen-container::-webkit-scrollbar-track {
+    background: rgba(169, 169, 169, 0);
+    border-radius: 10px;
+}
+  
+.imagen-container::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 63, 47);
+    border-radius: 10px;
+}
+
+.game-img{
+    color: #fff;
+    text-align: center;
+}
+
+.trailer{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+ .trailer iframe {
+    max-width: 100%;
+    min-width: 10%;
+ }
