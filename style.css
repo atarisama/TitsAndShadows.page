@@ -3,7 +3,7 @@
     font-family: 'Rockwell Condensed';
 
     /*Aquí se cambia la direcion del archivo .ttf*/
-    src: url('D:\Programas\Programación\Proyectos\PaginaOsoTitsAndShadows\Fonts\Rockwell Condensed.ttf') format('truetype');
+    src: url('https://github.com/atarisama/TitsAndShadows.page/blob/39aa810a4a371fc458f79ce955c9004c1aa39de8/Rockwell%20Condensed.ttf') format('truetype');
 }
 body{
     font-family: 'Rockwell Condensed', sans-serif;
