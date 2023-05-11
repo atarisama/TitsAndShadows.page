@@ -10,6 +10,7 @@ body
   background-image: url(https://github.com/atarisama/TitsAndShadows.page/blob/main/media/Background-characters.png?raw=true);
   background-color: #4b2454;
   color: #fff;
+  background-repeat: no-repeat;
 }
 
 header img{
