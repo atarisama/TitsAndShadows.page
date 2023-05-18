@@ -1,6 +1,0 @@
-[
-null,
-{"id":1,"battlerName":"MainChFight","characterIndex":0,"characterName":"MainChWalking","classId":1,"equips":[4,30,0,3,0],"faceIndex":1,"faceName":"characterheads","traits":[],"initialLevel":1,"maxLevel":99,"name":"Hero","nickname":"Hero","note":"","profile":""},
-{"id":2,"battlerName":"BecsantusFightaminations","characterIndex":0,"characterName":"BecSwalking","classId":4,"equips":[2,28,54,15,73],"faceIndex":0,"faceName":"characterheads","traits":[],"initialLevel":1,"maxLevel":99,"name":"BecSantus","nickname":"Becky","note":"","profile":""},
-{"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
-]
