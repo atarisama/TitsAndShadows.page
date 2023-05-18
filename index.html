@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tits And Shadows | Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="media/icoT&S.png" 
+    />
+</head>
+<body>
+    <!--Sección 1 -->
+    <section class="sect1" id="home">
+        <header class="header">
+            <label class="header-nav">
+                <a class="white-logo" href="#"><img src="media/logoBlanco.png" alt="Logo T&S white"></a>
+                <nav class="nav-menu">
+                    <a href="#about">About</a>
+                    <a href="#story">Story</a>
+                    <a href="#party-members">Party Members</a>
+                    <a href="#guest-collabs">Guest Collabs</a>
+                </nav>
+                <div class="language">
+                    <select id="language-Select">
+                        <option value="eng" selected>ENG</option>
+                        <option value="esp">ESP</option>
+                        <option value="jpn">日本語</option>
+                    </select>
+                </div>
+            </label>
+        </header>
+                <label class="left-top-items">
+                    <img class="color-logo" src="media/logocolor.png" alt="Logo T&S color">
+                    <h1><a href="https://www.newgrounds.com/portal/view/876537?updated=1680641482" class="play-button" target="_blank">PLAY NOW!</a></h1>
+                    <img class="plataforms" src="media/Plataforms.png" alt="plataformas">
+                </label>
+                <div></div>
+                <label class="steam-logo">
+                    <h1>coming soon on</h1>
+                    <img src="media/steamLogo.png" alt="Steam logo">
+                </label>
+    </section>
+
+    <!--Sección 2 -->
+
+    <section class="sect2" id="about">
+        <label class="sect2">
+            <h2 class="h2sect2">About</h2>
+            <br>
+            <p class="psect2">Introducing Tits and Shadows, a captivating turn-based RPG that seamlessly blends thrilling battles, puzzles, and tantalizing adult content. Immerse yourself in a world teeming with diverse enemies, intriguing NPCs, and engaging quests.
+                Prepare for epic encounters as you engage in strategic turn-based battles against formidable foes. Develop your party of skilled warriors, each with their unique abilities and strengths, and unravel the mysteries that lie within the game.</p>
+            <br>
+            <p class="psect2">But the adventure doesn't stop there. Tits and Shadows goes beyond traditional RPGs, offering a captivating blend of sensuality and storytelling. Delve into a realm where passions run deep, and forge intimate connections with a range of intriguing characters.</p>
+            <br>
+            <label class="sect2label">
+                <h2 class="h2themes">Themes in this game include:</h2>
+                <br>
+                <ul class="themes-list">
+                    <li>> Murder, abuse, cannibalism.</li>
+                    <li>> Risqué outfits, sexual comments and lewd situations</li>
+                    <li>> Full female, transgender and male nudity and sex</li>
+                    <li>> Strong language and alcohol</li>
+                    <li>> Dubious consent</li>
+                </ul>
+            </label>
+            <iframe class="trailer" src="https://www.youtube.com/embed/1qbX5-dUYTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </label>
+
+    </section>
+
+    <!-- Sección 3 -->
+
+    <section class="sect3" id="story">
+        <div class="sect3">
+            <h2 class="h2sect3">Story</h2>
+            <br>
+            <p class="psect3">You have died and now the angel Gabriel has resurrected you in the body of his fallen champion Hero to complete a special Task. Defeat the demon queen Putana</p>
+            <br>
+            <br>
+            <h2 class="h2sect3">Game images</h2>
+            <br>
+        <div class="imagen-container">
+            <img src="media/GameImage1.jpg" alt="Imagen 1">
+            <img src="media/GameImage2.jpg" alt="Imagen 2">
+            <img src="media/GameImage3.jpg" alt="Imagen 3">
+            <img src="media/GameImage4.jpg" alt="Imagen 4">
+            <!-- Agrega más imágenes según sea necesario -->
+        </div>
+        </div>
+    </section>
+
+    <!-- Sección 4 -->
+
+    <section class="sect4" id="party-members">
+        <div class="div-sect4">
+            <h2 class="h2sect4">Party members</h2>
+            <div class="image-viewer">
+              <div class="image-container">
+                <img id="current-image" src="media/HeroBio.jpg" alt="Hero Bio">
+                <div id="image-text">Hero</div>
+              </div>
+              <button id="prev-button">&lt;</button>
+              <button id="next-button">&gt;</button>
+            </div>
+              <script src="script.js"></script>
+        </div>
+    </section>
+
+    <section class="sect5" id="guest-collabs">
+        <div class="div-sect5">
+            <h2 class="h2sect5">Guest Collabs</h2>
+            <p class="psect5">Athena Hattifattener Cosplay</p>
+            <p class="psect5">MAMYOUU</p>
+            <p class="psect5">Tory Coss</p>
+            <p class="psect5">Kimi</p>
+        </div>
+    </section>
+    <footer>
+        <p>This game contains adult themes and content that may not be suitable for all ages. All characters with sex scenes in this title are 21 years of age and above!</p>
+        <br>
+        <div class="redes">
+            <a href="https://discord.gg/xrNR8zHPbZ" target="_blank"><img class="discord-logo" src="media/discordLogo.png" alt="Discord Logo"></a>
+        </div>
+        <br>
+        <p>&copy; 2023 Tits and Shadows. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Obtén el elemento select
+        var languageSelect = document.getElementById('language-Select');
+
+        // Agrega un evento change al select
+        languageSelect.addEventListener('change', function() {
+        // Obtiene el valor seleccionado
+        var selectedLanguage = languageSelect.value;
+
+        // Redirige al usuario a la página correspondiente
+        if (selectedLanguage === 'eng') {
+            window.location.href = 'index.html';
+        } else if (selectedLanguage === 'esp') {
+            window.location.href = 'Lang=ES.html';
+        }else if (selectedLanguage === 'jpn'){
+            window.location.href = 'Lang=日本語.html'
+        }
+        });
+      </script>
+</body>
+</html>
